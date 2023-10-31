@@ -1,0 +1,157 @@
+* {
+  /* border-top: 10px solid #1098ad; */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* border: solid black; */
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.product {
+  border: 4px solid black;
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.product-title {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+  padding: 15px;
+
+  /* background-color: orange; */
+  position: relative;
+}
+
+/* .product-title::before {
+  content: "SALE";
+  background-color: red;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 5px;
+  letter-spacing: 3px;
+  position: absolute;
+  top: -10px;
+  left: -25px;
+} */
+
+/* div:first-child {
+  background-color: red;
+  display: inline-block;
+  margin: 5px 5px;
+}
+
+div:last-child {
+  background-color: green;
+  display: inline-block;
+  margin: 5px 5px;
+} */
+
+/* product info */
+.price {
+  font-size: 24px;
+}
+
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.sale {
+  background-color: #ec2f2f;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 7px 15px;
+  display: inline-block;
+  position: absolute;
+  top: -17px;
+  left: -34px;
+  letter-spacing: 2px;
+  /* width: 40px;
+  text-align: center; */
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+.c {
+  background-color: black;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.c-blue {
+  background-color: #2f7ee2;
+}
+
+.c-red {
+  background-color: #ec2f2f;
+}
+.c-yellow {
+  background-color: #f0bf1e;
+}
+.c-green {
+  background-color: #90cc20;
+}
+
+.c-brown {
+  background-color: #885214;
+}
+
+/* product details */
+
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.details-list li {
+  margin-bottom: 10px;
+}
+/* button */
+.ädd-cart {
+  color: #fff;
+  background-color: #000;
+  border: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border-top: 4px solid black;
+}
+
+.ädd-cart:hover {
+  color: #000;
+  background-color: #fff;
+}
